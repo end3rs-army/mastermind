@@ -15,7 +15,7 @@ class Turn
 		correct_colors = @logic.check_for_matching_colors(secret,guess)
 		correct_positions = @logic.check_for_correct_positions(secret,guess)
 		return [:win,guess,correct_colors,correct_positions,turns] if correct_positions == @length
-		return [:lose,guess,correct_colors,correct_positions,turns] if turns == 15	
+		return [:lose,guess,correct_colors,correct_positions,turns] if turns == 10	
 		return [:incorrect,guess,correct_colors,correct_positions,turns] if correct_positions != @length
 	end 
 

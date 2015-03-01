@@ -20,10 +20,10 @@ class InputValidator
 
 	def validate_guess(string)
 		return [:god] if string == "god"
-		check_length = check_length(string)
-		return check_length if check_length != @good_string
-		check_colors = check_colors(string)
-		return check_colors if check_colors != @good_string
+		length_correct = check_length(string)
+		return length_correct if length_correct != @good_string
+		colors_correct = check_colors(string)
+		return colors_correct if colors_correct != @good_string
 		@good_string
 	end
 

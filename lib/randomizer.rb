@@ -10,6 +10,6 @@ if __FILE__ == $0
 
 	random = Randomizer.new
 	result = random.create_random_sequence
-	puts result.class
+	puts result
 
 end

@@ -20,7 +20,7 @@ class Printer
 	end
 
 	def turns_left(turns = 0)
-		"You have #{15-turns} turns left!\n".center(55)
+		"You have #{10-turns} turns left!\n".center(55)
 	end
 
 	def guess_header

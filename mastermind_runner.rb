@@ -1,4 +1,4 @@
-require './game_flow'
+require_relative './lib/game_flow'
 
 class Runner
 

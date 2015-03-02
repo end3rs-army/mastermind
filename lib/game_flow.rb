@@ -1,9 +1,9 @@
-require './turn'
-require './menu'
-require './counter'
-require './randomizer'
-require './guess_manager'
-require './input_validator'
+require_relative './turn'
+require_relative './menu'
+require_relative './counter'
+require_relative './randomizer'
+require_relative './guess_manager'
+require_relative './input_validator'
 
 class GameFlow
 

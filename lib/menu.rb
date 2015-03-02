@@ -23,6 +23,7 @@ class Menu
 	def show_win_menu(turns,time,secret)
 		puts @printer.mastermind_header
 		puts @printer.win_tally(turns,time,secret)
+		`say winner winner chicken dinner`
 	end
 
 	def show_lose_menu(time,secret)
